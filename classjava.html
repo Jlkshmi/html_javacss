@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        class a{
+            test(){
+                document.write("one"+"<br>")
+            }
+            test1(){
+                document.write("two")
+            }
+        
+        }
+
+        class c extends a{
+            test2(){
+                document.write("three")
+
+            }
+        }
+        let b=new c()
+        b.test()
+        b.test1()
+        b.test2()
+
+    </script>
+</body>
+</html>

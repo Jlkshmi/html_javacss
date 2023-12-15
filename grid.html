@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:100vh;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas: "one two two"
+            "three four five"
+            "three six five"
+        }
+        .item1{
+            background-color: aqua;
+            grid-area: one;
+        }
+        .item2{
+            background-color:blueviolet;
+            grid-area: two;
+        }
+        .item3{
+            background-color: yellow;
+            grid-area: three;
+        }
+        .item4{
+            background-color: orangered;
+            grid-area: four;
+        }
+        .item5{
+            background-color:blue;
+            grid-area: five;
+        }
+        .item6{
+            background-color: green;
+            grid-area: six;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum odit similique doloremque est, voluptatum eos minus, quo reiciendis rem, dicta placeat. Cupiditate dolorum porro libero enim voluptates, recusandae impedit iste.</div>
+        <div class="item2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum doloremque, corrupti exercitationem blanditiis libero aliquam voluptate sit reiciendis unde delectus natus necessitatibus! Repudiandae aliquid sit error porro quae. Nisi.</div>
+        <div class="item3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga rerum dolore tempora, corrupti odio cupiditate fugiat autem recusandae vitae architecto! Neque sequi error quibusdam nisi non accusamus eius necessitatibus aperiam!</div>
+        <div class="item4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem eaque dolorem, consequatur adipisci quisquam harum in cumque ducimus quo quae. Esse nihil corrupti enim iste, quasi sint facilis labore.</div>
+        <div class="item5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A suscipit dolore magni quo. Perspiciatis doloribus, quo inventore facilis blanditiis sequi vitae officia odio earum amet eius hic, saepe natus quas.</div>
+        <div class="item6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam perspiciatis magnam repellat ipsam saepe corrupti debitis nisi dolor soluta tempora aliquam, temporibus qui sint animi nesciunt necessitatibus commodi sapiente?</div>
+    </div>
+</body>
+</html>

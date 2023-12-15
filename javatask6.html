@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+
+    // shift() used to remove first element in an array
+
+        birds=["crow","parrot","dove"]
+        birds.shift()
+        document.write(birds)
+
+    // unshift() used to add a new element at the beginning
+
+        birds=["crow","parrot","dove"]
+        birds.unshift("sparrow","nigtingale")
+        document.write(birds)
+
+    // find() exicute the first element in an array which passes the test
+
+        const marks=[20,44,33,66,34,56]
+        document.getElementById("demo").innerHTML=marks.find(checkMark)
+        function checkMark(mark){
+            return mark >48;
+        }
+
+    // filter() exicute the elements in an array which passes the test
+
+        // const marks=[20,30,40,44,53]
+        // document.getElementById("demo").innerHTML=marks.filter(checkMark)
+        // function checkMark(mark){
+        // return mark > 43;
+        // }
+    
+    // sort() used to sort the elements in an array
+
+        birds=["crow","parrot","dove"]
+        birds.sort()
+        document.write(birds)
+
+
+
+
+
+
+    </script>
+</body>
+</html>

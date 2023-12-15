@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>select a fruit from the following list</p>
+
+    <select id="myselect" onchange="myfruits()">
+        <option value="banana">banana</option>
+        <option value="orange">orange</option>
+        <option value="mango">mango</option>
+        <option value="jackfruit">jackfruit</option>
+    </select>
+    <p id="demo"></p>
+    <script>
+        function myfruits(){
+            var a=document.getElementById("myselect").value;
+            alert(""+a)
+        }
+
+
+    </script>
+</body>
+</html>

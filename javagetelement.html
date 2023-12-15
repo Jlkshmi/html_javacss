@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 id="test">jayalakshmi</h1>
+<h2 class="demo">hello</h2>
+<h3 class="demo">ok</h3>
+<p>hellooo</p>
+
+
+<script>
+// byid
+document.getElementById("test").innerHTML="lakshmi"
+
+// byelement
+document.getElementsByClassName("demo")[1].innerHTML="demo1"
+
+// using multipleelement
+let node=document.getElementsByClassName("demo")
+for(var a=0;a<node.length;a++)
+// {
+    node[a].innerHTML="demo class"
+// }
+
+// bytagname
+document.getElementsByTagName("p")[0].innerHTML="home"
+let test=document.getElementsByTagName("p")
+for(var b=0;b<test.length;b++)
+{
+    test[b].innerHTML="world"
+}
+
+
+    </script>
+</body>
+</html>

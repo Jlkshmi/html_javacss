@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 class="test">hello</h1>
+   <!-- <h1 class="test">work</h1> -->
+    
+    <script>
+
+        let a=20,b=30
+        sum=a+b
+        // queryselector
+        // templates literals
+        // document.querySelector(".test").innerHTML=`sum =${sum}`
+
+       let head= document.querySelector(".test")
+       head.innerHTML=`sum =${sum}`
+    //    head.style.color="red"
+    //    head.style.backgroundColor="blue"
+
+       let objectstyle = {color:'blue','background-color':'red'}
+       Object.assign(head.style,objectstyle)
+        // queryselectorall
+        
+        // let heading=document.querySelectorAll(".test");
+        // for(let i=0;i<heading.length;i++)
+        // heading[i].innerHTML=`sum = ${sum}`
+        // heading.style.color="blue"
+
+       
+
+    </script>
+</body>
+</html>
